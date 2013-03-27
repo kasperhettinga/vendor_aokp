@@ -16,6 +16,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/mako.mk \
     $(LOCAL_DIR)/manta.mk \
     $(LOCAL_DIR)/maserati.mk \
+    $(LOCAL_DIR)/p4wifi.mk \
     $(LOCAL_DIR)/p930.mk \
     $(LOCAL_DIR)/solana.mk \
     $(LOCAL_DIR)/spyder.mk \
