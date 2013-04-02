@@ -1,5 +1,5 @@
 # Inherit AOSP device configuration for mako
-$(call inherit-product, device/samsung/p4wifi/p4wifi.mk)
+$(call inherit-product, device/samsung/p4/p4.mk)
 
 # Inherit AOKP common bits for tablet & 3G
 $(call inherit-product, vendor/aokp/configs/common_tablet.mk)
