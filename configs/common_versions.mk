@@ -12,7 +12,7 @@ ifneq ($(AOKP_BUILD),)
 		ro.aokp.version=$(TARGET_PRODUCT)_jb-mr1_$(shell echo $(AOKP_BUILD) | cut -d/ -f2)
 else
 	PRODUCT_PROPERTY_OVERRIDES += \
-        ro.aokp.version=Infamous_ROM_1.1-p4wifi-aokp
+        ro.aokp.version=Infamous_ROM_1.1.1-p4wifi-aokp
 endif
 
 # Camera shutter sound property
