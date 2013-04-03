@@ -8,7 +8,9 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/dictionaries
 
 PRODUCT_PACKAGES += \
     AOKPtips \
+    Apollo \
     AppWidgetPicker \
+    CMFileManager \
     LatinImeDictionaryPack \
     Microbes \
     PerformanceControl \
@@ -34,6 +36,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/lib/libmicrobes_jni.so:system/lib/libmicrobes_jni.so \
     vendor/aokp/prebuilt/common/etc/resolv.conf:system/etc/resolv.conf
+
+# Terminal Emulator
+PRODUCT_COPY_FILES +=  \
+    vendor/aokp/proprietary/Term.apk:system/app/Term.apk \
+    vendor/aokp/proprietary/lib/armeabi/libjackpal-androidterm4.so:system/lib/libjackpal-androidterm4.so
 
 # init.d
 PRODUCT_COPY_FILES += \
